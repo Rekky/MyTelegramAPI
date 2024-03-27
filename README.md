@@ -9,7 +9,7 @@ Install dependencies
 npm install
 ```
 
-Start the project
+Start the project in dev mode
 ```
 npm run dev
 ```
