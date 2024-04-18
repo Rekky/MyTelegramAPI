@@ -7,7 +7,7 @@ class TokenService {
   private secretKey = process.env.JWT_SECRET_KEY!;
 
   public generateAuthToken(userId: string): string {
-    const token = jwt.sign({ userId }, this.secretKey, { expiresIn: '1h' });
+    const token = jwt.sign({ userId }, this.secretKey, { expiresIn: '4h' });
     return token;
   }
   
